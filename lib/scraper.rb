@@ -19,7 +19,7 @@ class Scraper
       student_hash[:profile_url] = student.css('a')[0]['href']
       arr.push(student_hash)
     end
-
+binding.pry
     arr
   end
 
